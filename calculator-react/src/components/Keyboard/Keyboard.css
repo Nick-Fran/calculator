@@ -25,12 +25,36 @@
   background-color: var(--raisin-black-200);
 }
 
+.grid-item-operator:hover {
+  background-color: var(--raisin-black-300);
+}
+
+.grid-item-operator:active {
+  background-color: var(--raisin-black-100);
+}
+
 .grid-item-number {
   background-color: var(--ucle-blue-300);
 }
 
+.grid-item-number:hover {
+  background-color: var(--ucle-blue-400);
+}
+
+.grid-item-number:active {
+  background-color: var(--ucle-blue-200);
+}
+
 .grid-item-calc {
   background-color: var(--mint-green-400);
+}
+
+.grid-item-calc:hover {
+  background-color: var(--mint-green-500);
+}
+
+.grid-item-calc:active {
+  background-color: var(--mint-green-300);
 }
 
 .grid-item-operator,
@@ -40,18 +64,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: xx-large;
+  border: 0;
 }
 
 .grid-item-operator:hover,
 .grid-item-calc:hover,
 .grid-item-number:hover {
   cursor: pointer;
-}
-
-.grid-item-operator,
-.grid-item-calc,
-.grid-item-number {
-  font-size: xx-large;
 }
 
 @media (max-width: 1200px) {

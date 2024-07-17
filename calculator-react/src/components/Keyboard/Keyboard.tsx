@@ -1,6 +1,9 @@
 import './Keyboard.css'
 
-const Keyboard = () => {
+interface IKeyboard {
+  onPress: (updated: string, clear?: boolean) => void
+}
+const Keyboard = ({ onPress }: IKeyboard) => {
 
   return (
     <div className='calculator-keyboard'>
@@ -8,18 +11,18 @@ const Keyboard = () => {
       <button className='grid-item-operator'>-</button>
       <button className='grid-item-operator'>*</button>
       <button className='grid-item-operator'>/</button>
-      <button className='grid-item-number'>7</button>
-      <button className='grid-item-number'>8</button>
-      <button className='grid-item-number'>9</button>
+      <button className='grid-item-number' onClick={() => onPress('7')}>7</button>
+      <button className='grid-item-number' onClick={() => onPress('8')}>8</button>
+      <button className='grid-item-number' onClick={() => onPress('9')}>9</button>
       <button className='grid-item-calc'>=</button>
-      <button className='grid-item-number'>4</button>
-      <button className='grid-item-number'>5</button>
-      <button className='grid-item-number'>6</button>
-      <button className='grid-item-number'>1</button>
-      <button className='grid-item-number'>2</button>
-      <button className='grid-item-number'>3</button>
-      <button className='grid-item-number'>0</button>
-      <button className='grid-item-number'>C</button>
+      <button className='grid-item-number' onClick={() => onPress('4')}>4</button>
+      <button className='grid-item-number' onClick={() => onPress('5')}>5</button>
+      <button className='grid-item-number' onClick={() => onPress('6')}>6</button>
+      <button className='grid-item-number' onClick={() => onPress('1')}>1</button>
+      <button className='grid-item-number' onClick={() => onPress('2')}>2</button>
+      <button className='grid-item-number' onClick={() => onPress('3')}>3</button>
+      <button className='grid-item-number' onClick={() => onPress('', true)}>C</button>
+      <button className='grid-item-number' onClick={() => onPress('0')}>0</button>
       <button className='grid-item-number'>.</button>
     </div>
   )
