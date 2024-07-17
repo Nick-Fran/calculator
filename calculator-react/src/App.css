@@ -9,9 +9,3 @@
   display: flex;
   background-color: var(--powder-blue);
 }
-
-.calculator-keyboard {
-  flex: 3;
-  display: grid;
-  background-color: var(--raisin-black);
-}
