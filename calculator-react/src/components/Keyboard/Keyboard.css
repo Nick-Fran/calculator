@@ -1,0 +1,5 @@
+.calculator-keyboard {
+  flex: 3;
+  display: grid;
+  background-color: var(--raisin-black);
+}
