@@ -8,9 +8,44 @@ body {
 }
 
 :root {
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 769px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
   --raisin-black: #161925;
   --delf-blue: #23395b;
   --ucle-blue: #406e8e;
   --powder-blue: #8ea8c3;
   --mint-green: #cbf7ed;
+
+  --raisin-black-100: #edeff4;
+  --raisin-black-200: #cacedf;
+  --raisin-black-300: #a6adca;
+  --raisin-black-400: #838db5;
+  --raisin-black-500: #5f6ca0;
+  --raisin-black-600: #4a547c;
+  --raisin-black-700: #353c59;
+  --raisin-black-800: #202435;
+  --raisin-black-900: #0b0c12;
+
+  --ucle-blue-100: #cadbe7;
+  --ucle-blue-200: #c4d7e5;
+  --ucle-blue-300: #9dbdd3;
+  --ucle-blue-400: #76a3c1;
+  --ucle-blue-500: #4f88b0;
+  --ucle-blue-600: #3e6a89;
+  --ucle-blue-700: #2c4c62;
+  --ucle-blue-800: #1a2d3b;
+  --ucle-blue-900: #090f14;
+
+  --mint-green-100: #e6fbf6;
+  --mint-green-200: #b5f4e5;
+  --mint-green-300: #84ecd4;
+  --mint-green-400: #53e5c3;
+  --mint-green-500: #22ddb2;
+  --mint-green-600: #1aac8b;
+  --mint-green-700: #137b63;
+  --mint-green-800: #0b4a3b;
+  --mint-green-900: #041914;
 }
