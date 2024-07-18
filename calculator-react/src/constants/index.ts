@@ -6,3 +6,5 @@ export enum MATH_OPERATOR {
   divide = '/',
   multiply = '*'
 }
+
+export const DECIMAL_LENGTH = 5;
