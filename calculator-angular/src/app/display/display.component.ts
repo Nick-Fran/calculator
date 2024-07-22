@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './display.component.css'
 })
 export class DisplayComponent {
-
+  expression = ''
 }

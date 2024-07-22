@@ -1,0 +1,14 @@
+:host,
+.calculator-display {
+  flex: 1;
+  display: flex;
+  padding: 16px 64px;
+  background-color: var(--powder-blue);
+
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.expression-text {
+  font-size: 120px;
+}
