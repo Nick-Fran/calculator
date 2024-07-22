@@ -2,8 +2,8 @@
 
 ## Overview
 This project is a simple calculator that performs the four basic arithmetic operations: addition, subtraction, multiplication, and division. The calculator is implemented using TypeScript and the following libraries:
-- Angular;
-- React JS
+- **Angular**;
+- **React JS**;
 
 ## Features
 - **Addition**: Add two numbers.
@@ -22,7 +22,7 @@ To get started with the calculator project, follow these steps:
 
 2. **Navigate to the project directory**:
     ```bash
-    cd calculator/caluclator-{LIBRARY_NAME}
+    cd calculator/calculator-{LIBRARY_NAME}
     ```
 
 
