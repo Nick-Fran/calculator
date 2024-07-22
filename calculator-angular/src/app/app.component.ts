@@ -12,4 +12,5 @@ import { KeyboardComponent } from "./keyboard/keyboard.component";
 })
 export class AppComponent {
   title = 'calculator-angular';
+  expression = '';
 }
