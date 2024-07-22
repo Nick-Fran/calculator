@@ -1,2 +1,2 @@
 <app-display [expression]="expression"></app-display>
-<app-keyboard [(expression)]="expression"></app-keyboard>
+<app-keyboard (onCalculateEvent)="onCalculate()" (onPressEvent)="onPress($event)"></app-keyboard>
