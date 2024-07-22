@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './keyboard.component.css'
 })
 export class KeyboardComponent {
+  onPress(c: string, clear = false) {
+    console.log("onPress clicked")
+  }
 
+  onCalculate() {
+    console.log("onCalculate clicked")
+  }
 }
